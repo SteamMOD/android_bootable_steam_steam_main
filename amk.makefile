@@ -4,7 +4,7 @@ ifneq ($(TARGET_SIMULATOR),true)
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-STEAM_VERSION := Steam Recovery v2.9.9.0
+STEAM_VERSION := Steam Recovery v2.9.9.1
 STEAM_FUNCTIONS := -DSTEAM_HAS_MTDUTILS \
 									 -DSTEAM_HAS_YAFFS2 \
 									 -DSTEAM_HAS_AMEND \
